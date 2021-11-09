@@ -15,7 +15,7 @@ const navigator = createStackNavigator(
         ListExercise: ListExercise,
     },
     {
-        initialRouteName: "ComponentsScreen",
+        initialRouteName: "Home",
         defaultNavigationOptions: {
             title: "App",
         },
