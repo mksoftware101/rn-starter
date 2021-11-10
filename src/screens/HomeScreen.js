@@ -6,6 +6,7 @@ const HomeScreen = ({navigation}) => {
         <View>
             <Text style={styles.text}>HomeScreen</Text>
             <Button
+                style={styles.buttonStyle}
                 title="Go to components demo"
                 onPress={() => {
                     navigation.navigate('ComponentsScreen')
@@ -24,7 +25,7 @@ const HomeScreen = ({navigation}) => {
 const styles = StyleSheet.create({
     text: {
         fontSize: 30
-    }
+    },
 });
 
 export default HomeScreen;
