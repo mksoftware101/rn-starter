@@ -8,6 +8,7 @@ import ExcerciseOne from "./src/screens/components_screen/ExerciseOne";
 import ImageScreen from "./src/screens/reusable_components/ImageScreen"
 import CounterScreen from "./src/screens/counter/CounterScreen"
 import ColorScreen from "./src/screens/colors/ColorScreen"
+import SquareScreen from "./src/screens/colors/SquareScreen"
 
 const navigator = createStackNavigator(
     {
@@ -19,6 +20,7 @@ const navigator = createStackNavigator(
         ImageScreen: ImageScreen,
         CounterScreen: CounterScreen,
         ColorScreen: ColorScreen,
+        SquareScreen: SquareScreen,
     },
     {
         initialRouteName: "Home",
