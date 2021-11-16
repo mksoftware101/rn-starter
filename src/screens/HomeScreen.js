@@ -30,6 +30,12 @@ const HomeScreen = ({navigation}) => {
                     navigation.navigate('CounterScreen')
                 }}
             />
+            <Button
+                title="Go to Color demo"
+                onPress={()=>{
+                    navigation.navigate('ColorScreen')
+                }}
+            />
         </View>
     );
 };
