@@ -24,6 +24,33 @@ const HomeScreen = ({navigation}) => {
                     navigation.navigate('ImageScreen')
                 }}
             />
+<<<<<<< Updated upstream
+=======
+            <Button
+                title="Go to Counter demo"
+                onPress={() => {
+                    navigation.navigate('CounterScreen')
+                }}
+            />
+            <Button
+                title="Go to Counter with Reducer demo"
+                onPress={() => {
+                    navigation.navigate('CounterWithReducer')
+                }}
+            />
+            <Button
+                title="Go to Color demo"
+                onPress={() => {
+                    navigation.navigate('ColorScreen')
+                }}
+            />
+            <Button
+                title="Go to Square screen"
+                onPress={() => {
+                    navigation.navigate('SquareScreen')
+                }}
+            />
+>>>>>>> Stashed changes
         </View>
     );
 };
