@@ -20,12 +20,10 @@ const HomeScreen = ({navigation}) => {
             />
             <Button
                 title="Go to Image screen"
-                onPress={()=>{
+                onPress={() => {
                     navigation.navigate('ImageScreen')
                 }}
             />
-<<<<<<< Updated upstream
-=======
             <Button
                 title="Go to Counter demo"
                 onPress={() => {
@@ -50,7 +48,12 @@ const HomeScreen = ({navigation}) => {
                     navigation.navigate('SquareScreen')
                 }}
             />
->>>>>>> Stashed changes
+            <Button
+                title="Go to Text Demo"
+                onPress={() => {
+                    navigation.navigate('TextScreen')
+                }}
+            />
         </View>
     );
 };
